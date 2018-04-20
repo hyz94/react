@@ -1,0 +1,125 @@
+html,body{height: 100%;}
+#jiuxian{
+    display:flex;flex-direction:column;
+    #j_search{
+        height: 1.25rem;position:fixed;width:100%;z-index:100;
+    }
+    #j_carousel{
+        height:5.625rem;width: 100%;
+    }
+    #j_nav{
+        height: 4.21875rem;
+    }
+    #j_index_main{
+        flex:1;height: 100%;
+        .picture_show{
+            height: 4.375rem;display:flex;flex-wrap:wrap;
+            img{
+                height: 2.1875rem;width: 100%;
+            }
+            .picture1,.picture2{
+                width: 50%;
+            }
+        }
+        .headline{
+            height: .9375rem;padding-top:.375rem;display:flex;justify-content:space-around;
+            img{
+                width: 2.34375rem;height: .46875rem;
+            }
+            a{
+                display:inline-block;width: 5.671875rem;text-overflow:ellipsis;overflow:hidden;height: .46875rem;white-space:nowrap;border-left:.015625rem solid #ccc;padding-left:.46875rem;font-size:.34375rem;color:#333;
+            }
+        }
+        .spike{
+            height: .9375rem;padding:0 .3125rem;display:flex;justify-content:space-between;border-bottom:.015625rem solid #ccc;font-size:.375rem;
+            h3{height: .9375rem;line-height: .9375rem;}
+            p{
+                width: 3.4375rem;line-height: .9375rem;height: .9375rem;padding:.046875rem 0 0 .125rem;
+                span{width: .15625rem;height: .15625rem;background:#858585;border-radius:.078125rem;color:white;}
+            }
+            a{
+                color:#858585;height: .9375rem;line-height: .9375rem;padding-top:.0625rem;
+                i{margin-left:.234375rem;}
+            }
+        }
+        .spike_list{
+            height: 4.6875rem;
+            ul{
+                display:flex;height:100%;padding:.15625rem 0;overflow-x: auto;
+                li{
+                    width: 2.8125rem;flex:1;padding-left:.3125rem;
+                    
+                        img{
+                            width: 2.5rem;height: 2.5rem;
+                        }
+                        span{display:block;font-size: .34375rem}
+                        .name{color: #252525;overflow: hidden;height: .9375rem;}
+                        .salesPrice{color:red;height: .3125rem;}
+                        .index_price{color:#ccc;height: .3125rem;margin-top:.078125rem;}
+                    
+                }
+            }
+        }
+        .pubBanner{
+            background:#F6F6F6;padding:.15625rem;height: 9.375rem;
+            ul{
+                li{
+                  height: 2.34375rem;
+                    img{
+                         height: 2.34375rem;width: 100%;
+                    }
+                }
+            }
+        }
+        .newProduct{
+            height: 4.0625rem;display:flex;flex-wrap:wrap;margin-top:0.3125rem;flex-direction:column;padding:0 .3125rem;
+            .newProduct1{
+                width: 4.6875rem;height: 4.0625rem;
+            }
+            .newProduct2{
+                width: 4.6875rem;height: 2.03125rem;
+            }
+            .newProduct3{
+                width: 4.6875rem;height: 2.03125rem;
+            }
+        }
+        .indexClassify{
+            width: 100%;height: 33.59375rem;
+            .indexTitle{height: 6.71875rem;}
+            .bigtitle{
+                width: 100%;height: 0.9375rem;border-bottom:0.015625rem solid #D0CFD0;
+                img{width: 100%;}
+            }
+            .smalltitle{
+                display:flex;flex-wrap:wrap;height: 5.625rem;
+                img{height: 2.8125rem;width: 50%;border:0.015625rem solid #D0CFD0;}
+                img:nth-child(3){width: 33%;}
+                img:nth-child(4){width: 33%;}
+                img:nth-child(5){width: 33%;}
+                
+            }
+        }
+        .hotRecommend{
+            h5{color:#666;height: .9375rem;text-align:center;line-height: .9375rem;border-bottom:.015625rem solid #ccc;font-size:.390625rem;}
+            ul{
+                display:flex;flex-wrap:wrap;height: 6.71875rem;
+                a{
+                    width: 50%;
+                    li{
+                        width: 100%;border:.0625rem solid #D0CFD0;height: 6.71875rem;padding: 0 .234375rem;
+                        
+                            img{
+                               width: 100%;height: 4.6875rem;text-align:center;
+                            }
+                            span{display:block;font-size: .34375rem}
+                            .name{color: #252525;overflow: hidden;height: .9375rem;}
+                            .salesPrice{color:red;height: .3125rem;}
+                            .index_price{color:#ccc;height: .3125rem;margin-top:.078125rem;}
+                    }
+                }
+            }
+        }
+
+    }
+      
+}

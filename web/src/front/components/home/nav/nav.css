@@ -1,0 +1,51 @@
+.nnav{
+    height:1.328125rem;
+    background:#ccc;
+}
+.nnav ul{
+    /*border-top:2px solid #999999;*/
+    /*padding-top: 0.046875rem;*/
+    display:flex;
+}
+.nnav ul li{
+    flex:1;
+    height:1.328125rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.nnav ul li a{
+    color:#333;
+    display:block;
+    font-size:0.3125rem;
+    height:100%;
+    width: 100%;
+    line-height:0.765625rem;
+}
+.nnav ul li a i{
+    display:block;
+    font-size:0.78125rem;
+    height:0.5625rem;
+    line-height:0.78125rem;
+}
+.nnav ul li a:hover{
+    color:red;
+}
+.nnav ul li a i:hover{
+    color:red;
+}
+.nnav>ul>li>.fa{
+    font-size:0.78125rem;
+    display:block;
+    text-decoration:none;
+}
+.nnav>ul>li i{
+    text-decoration:none;
+}
+.nnav .active{
+    text-decoration:none;
+}
+.nnav .sy{
+    text-decoration:none;
+}
