@@ -13,7 +13,7 @@ export default class Cartcomponent extends Component{
     componentWillMount(){
         var total = 0;
         //http://10.3.136.55:8181/update?db=cart&_id=7&qty=2
-        http.get('http://10.3.136.55:8181/getCart?username=hyz').then((res)=>{
+        http.get('getCart?username=hyz').then((res)=>{
             this.setState({
                 dataset: res.data
             })
@@ -51,14 +51,14 @@ export default class Cartcomponent extends Component{
         }
     }
     del(e){
-        http.get('http://10.3.136.55:8181/delete?db=cart&_id='+e.target.parentNode.parentNode.parentNode.id).then((res)=>{
+        http.get('delete?db=cart&_id='+e.target.parentNode.parentNode.parentNode.id).then((res)=>{
             this.setState({
                 dataset: res.data
             })
         })
         var total = 0;
         //http://10.3.136.55:8181/update?db=cart&_id=7&qty=2
-        http.get('http://10.3.136.55:8181/getCart?username=hyz').then((res)=>{
+        http.get('getCart?username=hyz').then((res)=>{
             this.setState({
                 dataset: res.data
             })
